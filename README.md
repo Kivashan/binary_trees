@@ -19,7 +19,7 @@ foundations portion o the software engineering course.
 1. Betty version 0.32
 1. gcc version 9.4 for (ubuntu 9.4 ubuntu 20.04.01)
 
-[To top](#Binary Trees)
+[To top](#Binary-Trees)
 
 ## Resources
 
@@ -28,7 +28,7 @@ foundations portion o the software engineering course.
 1. [Resource 3](https://youtu.be/GzJoqJO1zdI)
 1. [Resource 4](https://youtu.be/fAAZixBzIAI)
 
-[To top](#Binary Trees)
+[To top](#Binary-Trees)
 
 ## Task completion
 
@@ -56,16 +56,16 @@ foundations portion o the software engineering course.
 - [ ] Task 21
 *Rest of tasks to be listed*
 
-[To top](#Binary Trees)
+[To top](#Binary-Trees)
 
 ## Contributions
 
 No contributors
 
-[To top](#Binary Trees)
+[To top](#Binary-Trees)
 
 ## License
 
 No license
 
-[To top](#Binary Trees)
+[To top](#Binary-Trees)
