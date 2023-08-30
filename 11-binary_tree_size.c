@@ -4,7 +4,7 @@
 
 
 /**
- * binary_tree_size - returns the number of nodes(size) of a 
+ * binary_tree_size - returns the number of nodes(size) of a
  * binary tree structure
  * @tree: the root node of a binary tree structure
  *
