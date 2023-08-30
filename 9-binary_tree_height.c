@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-static void traverse_for_height(const binary_tree_t *tree, size_t *h, size_t *max_h);
+static void traverse_for_height(const binary_tree_t *tree, size_t *h,
+								 size_t *max_h);
 
 /**
  * binary_tree_height - a function that returns the height of a binary
@@ -26,9 +27,14 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	return (max_h);
 }
 
-static void traverse_for_height(const binary_tree_t *tree, size_t *h, size_t *max_h)
+static void traverse_for_height(const binary_tree_t *tree, size_t *h,
+								 size_t *max_h)
 {
-	if (!tree || (!(tree->left) && !(tree->right)))
+	if (!tree)
+		return;
+
+	/* case where tree is not null and does not have children */
+	if (!(tree->left) && !(tree->right))
 		return;
 
 	*h += 1;
