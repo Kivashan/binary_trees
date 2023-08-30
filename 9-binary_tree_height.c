@@ -38,13 +38,13 @@ static void traverse_for_height(const binary_tree_t *tree, size_t *h,
 		return;
 
 	*h += 1;
-
 	if (*h > *max_h)
 		*max_h = *h;
 
 	traverse_for_height(tree->left, h, max_h);
 	*h -= 1;
 
+	*h += 1;
 	traverse_for_height(tree->right, h, max_h);
 	*h -= 1;
 }
